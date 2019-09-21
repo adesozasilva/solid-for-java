@@ -2,6 +2,8 @@ package liskovsubstitutionprinciple;
 
 public interface FlyingBird {
 	
-	String fly();
+	default String fly() {
+		return "Fly implementation";
+	}
 
 }
