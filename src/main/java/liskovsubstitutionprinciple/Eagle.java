@@ -9,7 +9,7 @@ public class Eagle implements Bird, FlyingBird {
 	}
 	
 	public String fly() {
-		return flyAction.fly();
+		return flyAction.execute();
 	}
 
 }

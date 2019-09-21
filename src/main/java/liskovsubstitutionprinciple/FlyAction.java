@@ -2,7 +2,7 @@ package liskovsubstitutionprinciple;
 
 public class FlyAction {
 	
-	public String fly() {
+	public String execute() {
 		return "Fly implementation";
 	}
 
