@@ -25,7 +25,7 @@ public class AccountTest {
 	}
 
 	private static Account studentBankAccountWith(double amount) {
-		Account studentBankAccount = new StudentBankAccount();
+		Account studentBankAccount = new SavingsAccount();
 		studentBankAccount.deposit(amount);
 		return studentBankAccount;
 	}

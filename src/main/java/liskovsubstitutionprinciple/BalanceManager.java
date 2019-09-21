@@ -1,6 +1,6 @@
 package liskovsubstitutionprinciple;
 
-public class CurrentBalanceManager {
+public class BalanceManager {
 	
     private double currentBalance;
 

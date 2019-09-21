@@ -3,10 +3,10 @@ package liskovsubstitutionprinciple;
 public class StudentBankAccount implements Account {
 
     private int points;
-	private CurrentBalanceManager manager;
+	private BalanceManager manager;
 	
 	public StudentBankAccount() {
-		this.manager = new CurrentBalanceManager();
+		this.manager = new BalanceManager();
 	}
 
     public int getPoints() {

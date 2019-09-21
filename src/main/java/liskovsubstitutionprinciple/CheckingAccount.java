@@ -1,11 +1,11 @@
 package liskovsubstitutionprinciple;
 
-public class CommonAccount implements Account {
+public class CheckingAccount implements Account {
 
-	private CurrentBalanceManager manager;
+	private BalanceManager manager;
 
-    public CommonAccount() {
-    	this.manager = new CurrentBalanceManager();
+    public CheckingAccount() {
+    	this.manager = new BalanceManager();
     }
 
     public void earn() {
