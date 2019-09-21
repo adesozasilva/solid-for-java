@@ -1,16 +1,16 @@
-package br.com.adesozasilva.solidforjavaliskov.entities;
+package liskovsubstitutionprinciple;
 
 public class StudentBankAccount implements Account {
 
-    private int milhas;
+    private int points;
 	private CurrentBalanceManager manager;
 	
 	public StudentBankAccount() {
 		this.manager = new CurrentBalanceManager();
 	}
 
-    public int getMilhas() {
-        return milhas;
+    public int getPoints() {
+        return points;
     }
 
 	@Override

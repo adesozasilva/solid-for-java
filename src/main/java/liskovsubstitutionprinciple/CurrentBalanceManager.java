@@ -1,4 +1,4 @@
-package br.com.adesozasilva.solidforjavaliskov.entities;
+package liskovsubstitutionprinciple;
 
 public class CurrentBalanceManager {
 	
@@ -8,7 +8,7 @@ public class CurrentBalanceManager {
         this.currentBalance += value;
     }
 
-    public void saca(double value) {
+    public void withdraw(double value) {
         if (value <= this.currentBalance) {
             this.currentBalance -= value;
         } else {

@@ -1,4 +1,4 @@
-package br.com.adesozasilva.solidforjavaliskov.entities;
+package liskovsubstitutionprinciple;
 
 public interface Account {
 
