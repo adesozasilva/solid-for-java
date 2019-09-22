@@ -1,6 +1,6 @@
 # solid-for-java
 
-#### Liskov Subtitutive Principle - Princípio de Substituição de Liskov ####
+#### Liskov Subtitutive Principle - Princípio de Substituição de Liskov
 
 O Princípio de Liskov mostra o quanto é díficil utlizar herança correntamente, pois devemos pensar muito nas pré-condições e pós-condições de uma classe. 
 
