@@ -1,9 +1,3 @@
-# solid-for-java-liskov 
+#### Single Responsibility Principle - Princípio de Responsabilidade Única ####
 
-#### Liskov Subtitutive Principle - Princípio de Substituição de Liskov ####
-
-O Princípio de Liskov mostra o quanto é díficil utlizar herança correntamente, pois devemos pensar muito nas pré-condições e pós-condições de uma classe. 
-
-Quando você tem uma classe filho, ela nunca pode apertar as pré-condições, você não pode criar uma pré-condição que seja mais restrita do que da classe pai.
-
-Com a pós-condição, é a mesma coisa. A classe filho, ela nunca pode afrouxar a pós-condição – o contrário da pré. A pós-condição, ela nunca pode afrouxar.
+O Princípio de Responsabilidade Única, como o próprio nome diz, a ideia é ter uma única responsabilidade por classe. Além disso ela deve ter um único motivo para ser alterado.
