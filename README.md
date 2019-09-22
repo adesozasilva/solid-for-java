@@ -1,4 +1,4 @@
-# solid-for-java-liskov 
+# solid-for-java
 
 #### Liskov Subtitutive Principle - Princípio de Substituição de Liskov ####
 
