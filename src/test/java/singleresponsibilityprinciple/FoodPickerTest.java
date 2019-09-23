@@ -4,17 +4,13 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-import example.Animal;
-import example.FoodPicker;
-import example.SpecieAnimal;
-
 public class FoodPickerTest {
 
 	@Test
 	public void test() {
-		Animal cat = new Animal(SpecieAnimal.CAT);
-		Animal dog = new Animal(SpecieAnimal.DOG);
-		Animal chicken = new Animal(SpecieAnimal.CHICKEN);
+		Animal cat = new Animal(new SpecieAnimal("CAT", new FoodType("Peixe")));
+		Animal dog = new Animal(new SpecieAnimal("DOG", new FoodType("T-Bone")));
+		Animal chicken = new Animal(new SpecieAnimal("DOG", new FoodType("Milho")));
 		
 		FoodPicker foodPicker = new FoodPicker();
 		

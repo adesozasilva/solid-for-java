@@ -1,13 +1,17 @@
 package singleresponsibilityprinciple;
 
-public enum SpecieAnimal {
+public class SpecieAnimal {
 	
-	CHICKEN(new FoodType("Milho")), CAT(new FoodType("Peixe")), DOG(new FoodType("T-Bone"));
-	
+	private String name;
 	private FoodType foodType;
 	
-	private SpecieAnimal(FoodType foodType) {
+	public SpecieAnimal(String name, FoodType foodType) {
+		this.name = name;
 		this.foodType = foodType;
+	}
+
+	public String getName() {
+		return name;
 	}
 	
 	public FoodType getFoodType() {
