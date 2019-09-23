@@ -1,9 +1,6 @@
-# solid-for-java-liskov 
+# solid-for-java
 
-#### Liskov Subtitutive Principle - Princípio de Substituição de Liskov ####
+#### Open Closed Principle -  Princípio de Classes Abertas e Fechadas ####
 
-O Princípio de Liskov mostra o quanto é díficil utlizar herança correntamente, pois devemos pensar muito nas pré-condições e pós-condições de uma classe. 
-
-Quando você tem uma classe filho, ela nunca pode apertar as pré-condições, você não pode criar uma pré-condição que seja mais restrita do que da classe pai.
-
-Com a pós-condição, é a mesma coisa. A classe filho, ela nunca pode afrouxar a pós-condição – o contrário da pré. A pós-condição, ela nunca pode afrouxar.
+O Open Closed Principle mostra que classes devem ser abertas para extensão, ou seja, tenho que conseguir estendê-la, mudar seu comportamento de maneira fácil.
+Mas ela tem que ser fechada para alteração, eu não precisar ficar adicionando
