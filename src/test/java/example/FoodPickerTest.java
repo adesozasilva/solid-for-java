@@ -14,9 +14,9 @@ public class FoodPickerTest {
 		
 		FoodPicker foodPicker = new FoodPicker();
 		
-		assertEquals(foodPicker.getFood(cat), "Peixe");
-		assertEquals(foodPicker.getFood(chicken), "Milho");
-		assertEquals(foodPicker.getFood(dog), "T-Bone");
+		assertEquals(foodPicker.getFood(cat), "FISH");
+		assertEquals(foodPicker.getFood(chicken), "CORN");
+		assertEquals(foodPicker.getFood(dog), "T-BONE");
 	}
 
 }
