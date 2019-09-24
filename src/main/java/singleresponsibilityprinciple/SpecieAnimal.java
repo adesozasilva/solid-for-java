@@ -2,7 +2,9 @@ package singleresponsibilityprinciple;
 
 public enum SpecieAnimal {
 	
-	CHICKEN(new FoodType("Milho")), CAT(new FoodType("Peixe")), DOG(new FoodType("T-Bone"));
+	CHICKEN(new FoodType("CORN")), 
+	CAT(new FoodType("FISH")), 
+	DOG(new FoodType("T-BONE"));
 	
 	private FoodType foodType;
 	
