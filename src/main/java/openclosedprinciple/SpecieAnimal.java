@@ -1,4 +1,4 @@
-package singleresponsibilityprinciple;
+package openclosedprinciple;
 
 public class SpecieAnimal {
 	

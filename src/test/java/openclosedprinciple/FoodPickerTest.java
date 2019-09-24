@@ -1,8 +1,13 @@
-package singleresponsibilityprinciple;
+package openclosedprinciple;
 
 import static org.junit.Assert.*;
 
 import org.junit.Test;
+
+import openclosedprinciple.Animal;
+import openclosedprinciple.FoodPicker;
+import openclosedprinciple.FoodType;
+import openclosedprinciple.SpecieAnimal;
 
 public class FoodPickerTest {
 
