@@ -1,5 +1,5 @@
 # solid-for-java
 
-#### Open Closed Principle -  Princípio de Classes Abertas e Fechadas ####
+#### Dependency Inversion Principles -  Princípio da Inversão de Dependência ####
 
-O Open Closed Principle mostra que classes devem ser abertas para extensão, ou seja, tenho que conseguir estendê-la, mudar seu comportamento de maneira fácil. Mas ela tem que ser fechada para alteração, eu não posso ficar adicionando trechos de códigos toda vez que eu preciso mudar o seu comportamento.
+O Princípio da Inversão de Dependência nos mostra que nossas abstrações devem depender de outras abstrações, a ideia é que ela não conheça detalhes da implementação, já que, elas são menos estáveis e tendem a mudar mais do que uma abstração.
