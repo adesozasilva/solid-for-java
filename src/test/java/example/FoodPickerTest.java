@@ -8,14 +8,12 @@ public class FoodPickerTest {
 
 	@Test
 	public void test() {
-		Animal cat = new Animal(SpecieAnimal.CAT);
-		Animal dog = new Animal(SpecieAnimal.DOG);
-		Animal chicken = new Animal(SpecieAnimal.CHICKEN);
+		Dog dog = new Dog();
+		Cat cat = new Cat();
 		
 		FoodPicker foodPicker = new FoodPicker();
 		
 		assertEquals(foodPicker.getFood(cat), "FISH");
-		assertEquals(foodPicker.getFood(chicken), "CORN");
 		assertEquals(foodPicker.getFood(dog), "T-BONE");
 	}
 

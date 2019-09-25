@@ -2,16 +2,12 @@ package example;
 
 public class FoodPicker {
 	
-	public String getFood(Animal animal) {
-		if(animal.getSpecie().equals(SpecieAnimal.CAT)) {
-			return "FISH";
-		}
-		if(animal.getSpecie().equals(SpecieAnimal.CHICKEN)) {
-			return "CORN";
-		}
-		if(animal.getSpecie().equals(SpecieAnimal.DOG)) {
+	public String getFood(Object animal) {
+		if(animal instanceof Dog)
 			return "T-BONE";
-		}
+		
+		if(animal instanceof Cat)
+			return "FISH";
 		
 		throw new RuntimeException("Invalid Animal!");
 	}
